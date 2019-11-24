@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>CSS</title>
-	<style>
+		<style>
 		ul {
 		list-style-type: none;
 		margin:  0px;
@@ -616,8 +611,3 @@
 			z-index:8;
 		}
 		</style>
-</head>
-<body>
-	
-</body>
-</html>
