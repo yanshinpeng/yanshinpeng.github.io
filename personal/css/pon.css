@@ -207,7 +207,7 @@
 		top:1180px;
 		margin: 0px;
 		z-index: 3;
-		left:100px;
+		left:5%;
 		}
 		.d2 img{
 		position: absolute;
@@ -216,7 +216,7 @@
 		top:1300px;
 		margin: 0px;
 		z-index: 3;
-		left:1030px;
+		left:80%;
 		}
 		.d3 img{
 		position: absolute;
@@ -225,16 +225,16 @@
 		top:800px;
 		margin: 0px;
 		z-index: 3;
-		left:450px;
+		left:30%;
 		}
 		.d6 img{
 		position: absolute;
 		width:100px;
 		height:100px;
-		top:1850px;
+		top:1840px;
 		margin: 0px;
 		z-index: 3;
-		left:1050px;
+		left:80%;
 		}
 		.dd6 img{
 		position: absolute;
@@ -551,7 +551,7 @@
 		top:1400px;
 		margin: 0px;
 		z-index: 2;
-		left:83%;
+		left:84%;
 		}
 		.b3 img{
 		position: absolute;
@@ -569,7 +569,7 @@
 		top:2000px;
 		margin: 0px;
 		z-index: 2;
-		left:83%;
+		left:84%;
 		}
 		.b5 img{
 		position: absolute;
@@ -587,7 +587,7 @@
 		top:2700px;
 		margin: 0px;
 		z-index: 2;
-		left:83%;
+		left:84%;
 		}
 		.b7 img{
 		position: absolute;
