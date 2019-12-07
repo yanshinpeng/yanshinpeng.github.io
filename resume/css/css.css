@@ -270,10 +270,11 @@ transition: 0.5s;
 
 	.work img{
 		width:300px;
-		height:300px;
+		height:200px;
 		position:absolute;
 		left:20%;
-		top:1950px;
+		top:2000px;
+		border-radius:20%;
 		
 	} 
 	.work img:hover{transform:scale(1.2,1.2);}
