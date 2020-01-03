@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>car</title>
+        <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <style>
+            @import url("../assets/css/car.css");
+        </style>
+    </head>
+    <body onload="initialize()">
+        <script src="../assets/js/dsn.js"></script>
+        <script src="../assets/js/car.js"></script>
+           <section>
+    <center>
+    <nav class="top"  id="upup">
+        <img src="../assets/img-dsn/logo.png" class="icon">
+        
+        <a href="../index.html"><div class="view"><p>首頁</p></div></a>
+        
+        <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu1', 'MouseOver' )" onmouseout="hideMenu()">商品 <div style="font-size:11px;">&#9660;</div>
+        <ul id="SubMenu1" class="sub-menu" style="display:none;">
+            <li><a href="../pages/Pendant.html"><div class="view"><p>吊飾</p></div></a></li>
+            <li><a href="../pages/bag.html"><div class="view"><p>包包</p></div></a></li>
+            <li><a href="../pages/head.html"><div class="view"><p>髮箍</p></div></a></li>
+        </ul>
+    </div>
+    <a href="../index.html#hot"><div class="view"><p>熱門排行榜</p></div></a>
+    <a href="../pages/aboutus.html"><div class="view"><p>關於我們</p></div></a>
+    <a href="../pages/note.html"><div class="view"><p>客服中心</p></div></a>
+    
+    
+    <div class="view"><p><a href="../pages/car.html"><img src="../assets/img-dsn/car.png" class="car1" style="width: 50px;height: 50px"></a></p></div>
+    
+    
+    <!--選單3(Hover+Click)-->
+    <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu3' )" onmouseout="hideMenu()" onclick="switchMenu( this, 'SubMenu3' )"><img src="../assets/img-dsn/member.png" class="member" style="width: 45px;height: 44px"><span style="font-size:9px;">&#9660;</span>
+    <ul id="SubMenu3" class="sub-menu" style="display:none;">
+        
+        <li><a href="../pages/login.html"><div class="view"><p>登入</p></a></li>
+        <li><a href="../pages/registered.html"><div class="view"><p>註冊</p></a></li>
+    </ul>
+    
+</div><br>
+
+<div class="container-1">
+    <span class="icon"><i class="fa fa-search"></i></span>
+    <input type="search" id="search" placeholder="Search..." />
+</div>
+</div>
+
+
+
+</nav>
+</center>
+
+        <div class="shopicon">
+        <img src="../assets/img-dsn/shopping.png">
+    </div>
+        <h1>購買清單</h1>
+        <div id="imgtest"></div>
+        <table border="1" style="text-align: center;" align="center">
+            <thead style="height: 50">
+
+                <td style="width: 300px">
+                    商品名稱
+                </td>
+                <td style="width: 60px">
+                    圖片
+                </td>
+
+                <td style="width: 170px">
+                    數量
+                </td>
+                <td style="width: 170px">
+                    價格
+                </td>
+                <td style="width: 250px">
+                    小計
+                </td>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="name">史黛拉髮箍</td>
+                    <td class="image">
+                        <img src="../assets/img-dsn/head5.png" width="80px" height="90px" id="image1" />
+                    </td>
+                    <td class="quantity">
+                        <input id="quantity1" value="1" onblur="total(1);" />
+                    </td>
+                    <td class="price">
+                        <input type="hidden" id="price1" value="20" />
+                        $20
+                    </td>
+                    <td class="total">
+                        $<span id="smallTotal1"> 元
+                    </td>
+                </tr>
+
+                     <tr>
+                    <td class="name">雪莉玫小吊飾</td>
+                    <td class="image">
+                        <img src="../assets/img-dsn/p3.png" width="80px" height="90px" id="image1" />
+                    </td>
+                    <td class="quantity">
+                        <input id="quantity2" value="1" onblur="total(2);" />
+                    </td>
+                    <td class="price">
+                        <input type="hidden" id="price2" value="30" />
+                        $30
+                    </td>
+                    <td class="total">
+                        $<span id="smallTotal2">元
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="cart_total">
+                        
+
+                    </td>
+                    <td>
+                        <span class="red">總計:$<span id="total">元
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+  <div class="payicon">
+        <img src="../assets/img-dsn/money.png">
+    </div>
+    <div class="textdelivery">
+    <h1>付款與配送</h1>
+</div>
+            <div class="payall">
+                <form >
+                    
+                    <div class="payanddelivery">
+                        <div class="pay">
+                            <h2 class="m">付款方式</h2>
+                            <div class="pay1"><br>
+                                <input type="radio" name="paymethod">貨到付款<br><br>
+                                <input type="radio" name="paymethod">銀行轉帳<br><br>
+                                <input type="radio" name="paymethod">信用卡
+                            </div>
+                        </div>
+                        <div class="delivery">
+                            <h2 class="n">配送方式</h2>
+                            <div class="delivery1"><br>
+                                <input type="radio" name="deliverymethod">超商取貨<br><br>
+                                <input type="radio" name="deliverymethod">宅配<br><br>
+                                <input type="radio" name="deliverymethod">郵寄<br>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="noteicon">
+        <img src="../assets/img-dsn/note.png">
+    </div>
+            <div class="notes">
+                <h1>備註</h1><br>
+            </div>    
+            <div class="notestext">
+              <textarea name="Content" cols="130" rows="8"></textarea><br>
+          </div>
+</content>
+<input type="button" id="btn_finish" value="結帳" onclick="login();"/>
+<footer class="footer">
+        Copyright&nbsp;©&nbsp;HELLO DOLL!&nbsp;design,2019
+    </footer>
+    </body>
+</html>
+

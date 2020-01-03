@@ -1,0 +1,157 @@
+	div.view{
+	width:150px;
+	height:90px;
+	float:left;
+	text-align: center;
+	}
+	div.view:hover{
+	background-color:#FFFFBB;
+	color:#000000;
+	}
+	nav.top{
+	width: 100%;
+	height:90px;
+	background-color:#61BCB4;
+	margin-top: 0%;
+	}
+	img.icon{
+	width: 120px;
+	height: 90px;
+	float:left;
+	}
+	a{
+	font-size: 25px;
+	color:white;
+	text-decoration:none;
+	}
+	
+	
+	div.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+	div.pic img:hover{transform:scale(1.2,1.2);}
+	html{
+		font-family:"微軟正黑體";
+		scroll-behavior: smooth;
+		background:bisque;
+	}
+	body{
+	width:100%;
+	font-family: "微軟正黑體";
+	margin: 0 auto;
+	min-width: 1200px;
+	cursor: default;
+	}
+	nav{
+		opacity: 0.8;
+		background-color: #ECEAEA;
+	}
+	.container-1{
+	width: 300px;
+	
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+	}
+	
+	.gotop{
+		position: fixed;
+		top:90%;
+		right:2%;
+	}
+.main-menu	{	color:#FFFFFF;  padding:25px; margin: 0px; cursor:pointer; display:inline-block;font-size: 25px;float:left;	}	/* 主選單的樣式 */
+.main-menu:hover {	background-color:#FFFFBB; color:#000000;}
+.sub-menu	{	 background-color:#CCCCCC; margin:15px -50px; padding:0px; list-style-type:none; position:absolute; 	} /* 下拉清單的樣式 */
+.sub-menu li	{ padding: 0px 0px; text-align:center; color:#000000;  } /* 下拉清單每一列的樣式 */
+.sub-menu li:hover	{	 background-color:#FFFFBB; 	}
+.sub-menu a	{	text-align:center; display:block; text-decoration:none; color:green;}
+.sub-menu a:hover	{	color:#000000; background-color:#FFFFBB; text-decoration:none;  }
+	
+	div.talk{
+	width: 100%;
+	height: 100%;
+	background-color:#FF8888;
+	}
+	
+	h2.comment{
+	margin-top: 3%;
+	border-bottom: 5px solid #FF0088;
+	}
+	h3.wid{
+	width:800px;
+	}
+	
+	textarea{
+	font-size: 30px;
+	font-family:微軟正黑體;
+	}
+	
+	div.talk2{
+	background-color:#FFBB66;
+	}
+	
+	
+	div.head{
+	border: 6px  dotted ;
+	width:1150px;
+    height:340px;
+	display: flex;
+	left: -80%;
+	font-weight:bold;
+	left: 50%;
+	top: 20%;
+	}
+			
+	.ratings {
+	position: relative;
+	vertical-align: middle;
+	display: inline-block;
+	color:#FF0000; /*背景星星顏色*/
+	overflow: hidden;
+	font-size: 30px; /*調整字體大小可放大縮小星星*/
+	text-shadow: 0px 1px 0 #999;
+	}
+	.full_star {
+	width: 90%; /*調整寬度可變更星等*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	color:#FF0000; /*前景星星顏色*/}
+	h2{
+	border-bottom: 5px solid #FF0088;
+	width: 260px;
+	color:black;
+	}
+	h2.sc1{
+	width: 0px;
+				
+	}
+	aside.data{
+	font-family:微軟正黑體;
+	font-size: 20px;
+	font-weight:bold;
+	padding-left: 23%;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+	}
+	.wrapper{width:300px; margin:0px auto; font:25px/1.5 微軟正黑體;}
+	#star{overflow:hidden;}
+	#star li{float:left; width:48px; height:48px; margin:2px; display:inline; color:#999; font:35px/bold 18px arial; cursor:pointer}
+	#star .act{color:#FF0000;}
+	#star_word{width:80px; height:30px; line-height:30px; border:1px solid ; margin:10px; text-align:center; display:none}
+	
+	.footer {
+	position: absolute;
+	top:230%;
+	bottom: 0;
+	left: 0;
+	height: 34px;
+	background-color:#61BCB4;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	}	
+	
