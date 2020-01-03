@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>登入</title>
+		<style>
+			@import url("../assets/css/login.css");
+		</style>
+
+	</head>
+	<body>
+		<script src="../assets/js/login.js"></script>
+		<div class="r1">
+	<img src="../assets/img-dsn/red.png" >
+</div>
+<div class="r2">
+	<img src="../assets/img-dsn/orange.png">
+</div>
+	<div id="login_frame" class="modal-content1 animate1"><img src="../assets/img-dsn/member.png" width="100" height="100"  /></p>
+	<form  class="modal-content1 animate1" method="post" action="index.html">
+		
+		<p><label class="label_input">帳號</label><input type="text" id="username" class="text_field"/></p>
+		<p><label class="label_input">密碼</label><input type="text" id="password" class="text_field"/></p>
+		
+		<div id="login_control">
+	
+			<input type="button" id="btn_login" value="登入" onclick="login();"/>
+			<input type="button" onclick="history.back()"  value="取消" type="button"id="btn_out"></button>
+			<br>
+			<a id="forget_pwd" href="../pages/forgot.html">忘記密碼？</a>
+
+		</div>
+	</form>
+</div>
+
+</body>
+</html>

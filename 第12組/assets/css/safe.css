@@ -1,0 +1,79 @@
+<style>
+body {
+background-color: red;
+background-size: 100%;
+overflow: auto; 
+opacity:0.5
+  }
+.r1 img{
+	width:300px;
+	height:300px;
+}
+.r2 img{
+	position: absolute;
+	left:55%;
+	top:40%;
+	width:300px;
+	height:300px;
+}
+#login_frame {
+width: 350px;
+height: 280px;
+padding:10px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -200px;
+margin-top: -200px;
+background-color:#FFF2DE;
+border-radius: 10px;
+text-align: center;
+}
+form p > * {
+display: inline-block;
+vertical-align: middle;
+}
+#image_logo {
+	margin-top: 22px;
+}
+
+.talk{
+	margin-bottom: 20px;
+	
+}
+#btn_login {
+
+
+font-size: 14px;
+font-family: 微軟正黑體;
+width: 80px;
+height: 28px;
+line-height: 28px;
+text-align: center;
+color: white;
+background-color:#7CCFFF;
+border-radius: 6px;
+border: 0;
+margin-top: 25px;
+}
+
+#login_control {
+padding: 0 28px;
+}
+
+.animate1 {
+  	-webkit-animation: animatezoom 0.6s;
+  	animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  	from {-webkit-transform: scale(0)} 
+  	to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+  	from {transform: scale(0)} 
+  	to {transform: scale(1)}
+}
+
+
+</style>

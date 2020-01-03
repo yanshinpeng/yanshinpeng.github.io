@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>留言板</title>
+      <style>
+      @import url("../assets/css/note.css");
+    </style>
+  </head>
+  <body >
+    <script src="../assets/js/dsn.js"></script>
+<section>
+  <center>
+  <nav class="top"  id="upup">
+    <img src="../assets/img-dsn/logo.png" class="icon">
+    
+    <a href="../index.html"><div class="view"><p>首頁</p></div></a>
+    
+    <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu1', 'MouseOver' )" onmouseout="hideMenu()">商品 <div style="font-size:11px;">&#9660;</div>
+    <ul id="SubMenu1" class="sub-menu" style="display:none;">
+      <li><a href="../pages/Pendant.html"><div class="view"><p>吊飾</p></div></a></li>
+      <li><a href="../pages/bag.html"><div class="view"><p>包包</p></div></a></li>
+      <li><a href="../pages/head.html"><div class="view"><p>髮箍</p></div></a></li>
+    </ul>
+  </div>
+  <a href="../index.html#hot"><div class="view"><p>熱門排行榜</p></div></a>
+  <a href="../pages/aboutus.html"><div class="view"><p>關於我們</p></div></a>
+  <a href="../pages/note.html"><div class="view"><p>客服中心</p></div></a>
+  
+  
+  <div class="view"><p><a href="../pages/car.html"><img src="../assets/img-dsn/car.png" class="car1" style="width: 50px;height: 50px"></a></p></div>
+  
+  
+  <!--選單3(Hover+Click)-->
+  <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu3' )" onmouseout="hideMenu()" onclick="switchMenu( this, 'SubMenu3' )"><img src="../assets/img-dsn/member.png" class="member" style="width: 45px;height: 44px"><span style="font-size:9px;">&#9660;</span>
+  <ul id="SubMenu3" class="sub-menu" style="display:none;">
+    
+    <li><a href="../pages/login.html"><div class="view"><p>登入</p></a></li>
+    <li><a href="../pages/registered.html"><div class="view"><p>註冊</p></a></li>
+  </ul>
+  
+</div><br>
+
+<div class="container-1">
+  <span class="icon"><i class="fa fa-search"></i></span>
+  <input type="search" id="search" placeholder="Search..." />
+</div>
+</div>
+
+
+
+</nav>
+</center>
+    <center>
+    
+    
+    <form >
+       <h1>客服中心</h1>
+      姓名:&nbsp;<input type="text" style="width: 420px;" required><br>
+      e-mail:&nbsp;<input type="email" style="width: 400px;" required><br>
+      <div class="talk">想說的話:</div><textarea cols="63" rows="5" required></textarea><br>
+      <input type="submit" value="送出" class="pass" /> <br>  
+      <h1>留言內容</h1>
+    </form>
+    
+   
+  
+    <hr>
+    <div class="message">
+      <!--放留言內容-->
+    </div>
+    </center>
+    <footer class="footer">
+    Copyright&nbsp;©&nbsp;HELLO DOLL!&nbsp;design,2019
+  </footer>
+  </body>
+</html>

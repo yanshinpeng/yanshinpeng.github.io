@@ -1,0 +1,186 @@
+div.view{
+width:150px;
+height:90px;
+float:left;
+text-align: center;
+}
+div.view:hover{
+background-color:#FFFFBB;
+color:#000000;
+}
+nav.top{
+width: 100%;
+height:90px;
+background-color:#61BCB4;
+margin-top:0%;
+
+}
+img.icon{
+width: 120px;
+height: 90px;
+float:left;
+}
+a{
+font-size: 25px;
+color:white;
+text-decoration:none;
+}
+a:hover{
+background-color:#FFFFBB;
+color:#000000;
+}
+*{
+/*border: solid 1px black; */
+}
+img.banner{
+width:100%;
+height:600px;
+padding-left: -30%;
+left: -950px;
+top: 330px;
+}
+
+html{
+font-family:"微軟正黑體";
+scroll-behavior: smooth;
+background:bisque;
+}
+body{
+width:100%;
+font-family: "微軟正黑體";
+width:100%;
+margin: 0 auto;
+min-width: 1200px;
+cursor: default;
+}
+nav{
+
+opacity: 0.8;
+background-color: #ECEAEA;
+}
+
+.button{
+
+background-color:#00DDAA;
+color: white;
+border: 3px solid#000000;
+padding:0.5% 1%;
+text-decoration:none;
+font-size: 20px;
+font-weight: bold;
+font-family: "微軟正黑體";
+}
+.button:hover{
+
+background-color:   #FF69B4;
+border: 3px solid#000000;
+padding:0.5% 1%;
+text-decoration:none;
+font-size: 20px;
+
+font-weight: bold;
+font-family: "微軟正黑體";
+}
+
+
+.container-1{
+width: 300px;
+
+vertical-align: middle;
+white-space: nowrap;
+position: relative;
+}
+
+.gotop{
+position: fixed;
+top:90%;
+right:2%;
+}
+
+div.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+div.pic img:hover{transform:scale(1.2,1.2);}
+
+
+.main-menu  {   color:#FFFFFF;  padding:25px; margin: 0px; cursor:pointer; display:inline-block;font-size: 25px;float:left; }   /* 主選單的樣式 */
+.main-menu:hover {  background-color:#FFFFBB; color:#000000;}
+.sub-menu   {    background-color:#CCCCCC; margin:15px -50px; padding:0px; list-style-type:none; position:absolute;     } /* 下拉清單的樣式 */
+.sub-menu li    { padding: 0px 0px; text-align:center; color:#000000;  } /* 下拉清單每一列的樣式 */
+.sub-menu li:hover  {    background-color:#FFFFBB;  }
+.sub-menu a {   text-align:center; display:block; text-decoration:none; color:green;}
+.sub-menu a:hover   {   color:#000000; background-color:#FFFFBB; text-decoration:none;  }
+h1{
+ 
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+   font-family: 微軟正黑體;
+}
+input.pass
+{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #616060;
+    background-color:#D8FF62;
+    font-weight: bold;
+    margin-top: 2%;
+    font-family: 微軟正黑體;
+}
+input.pass:hover
+{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #616060;
+    background-color:#E3FF97;
+    font-weight: bold;
+    margin-top: 2%;
+    
+}
+form{
+	font-size: 22px;
+    font-family: 微軟正黑體;
+
+}
+div.message{
+	text-align: left;
+	margin-top: 2%;
+    height: 100%;
+    font-family: 微軟正黑體;
+}
+.talk{
+    margin-left:-31%;
+   
+}
+textarea{
+     border-radius: 10px;
+      color: #616060;
+}
+input{
+    border-radius: 4px;
+      color: #616060;
+      margin-bottom: 1%;
+}
+hr{
+    border:2px #FB9EB0 solid;
+    margin: 20px;
+    }
+.footer {
+    position: absolute;
+    top:150%;
+    bottom: 0;
+    left: 0;
+    height: 34px;
+    background-color:#61BCB4;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
