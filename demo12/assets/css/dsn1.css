@@ -146,15 +146,17 @@ flex:4;
 .sub-menu a	{	text-align:center; display:block; text-decoration:none; color:green;}
 .sub-menu a:hover	{	color:#000000; background-color:#FFFFBB; text-decoration:none;  }
 .footer {
-		position: absolute;
-		top:240%;
-		bottom: 0;
-		left: 0;
-		height: 34px;
-		background-color:#61BCB4;
-		width: 100%;
-		text-align: center;
-		margin-top: 50px;
-		padding-top: 40px;
-		padding-bottom: 40px;
+	position: absolute;
+	top:220%;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	background-color:#61BCB4;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+		
 		}
+

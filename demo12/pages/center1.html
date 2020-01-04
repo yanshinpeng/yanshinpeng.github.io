@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>留言板</title>
+    <title>修改資料</title>
       <style>
       @import url("../assets/css/note.css");
     </style>
@@ -16,7 +16,7 @@
     
     <a href="../index.html"><div class="view"><p>首頁</p></div></a>
     
-    <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu1', 'MouseOver' )" onmouseout="hideMenu()">商品 <div style="font-size:11px;">&#9660;</div>
+    <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu1', 'MouseOver' )" onmouseout="hideMenu()">商品 <div style="font-size:9px;">&#9660;</div>
     <ul id="SubMenu1" class="sub-menu" style="display:none;">
       <li><a href="../pages/Pendant.html"><div class="view"><p>吊飾</p></div></a></li>
       <li><a href="../pages/bag.html"><div class="view"><p>包包</p></div></a></li>
@@ -32,7 +32,7 @@
   
   
   <!--選單3(Hover+Click)-->
-  <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu3' )" onmouseout="hideMenu()" onclick="switchMenu( this, 'SubMenu3' )"><img src="../assets/img-dsn/member.png" class="member" style="width: 45px;height: 44px"><span style="font-size:9px;">&#9660;</span>
+  <div class="main-menu" onmouseover="switchMenu( this, 'SubMenu3' )" onmouseout="hideMenu()" onclick="switchMenu( this, 'SubMenu3' )"><img src="../assets/img-dsn/member.png" class="member" style="width: 45px;height: 34px"><span style="font-size:9px;">&#9660;</span>
   <ul id="SubMenu3" class="sub-menu" style="display:none;">
     
     <li><a href="../pages/login.html"><div class="view"><p>登入</p></a></li>
@@ -55,12 +55,15 @@
     
     
     <form >
-       <h1>客服中心</h1>
-      姓名:&nbsp;<input type="text" style="width: 420px;" required><br>
+       <h1>會員中心資料修改</h1>
+      姓名:&nbsp;<input type="text" style="width: 350px;" required><br>
+      密碼:&nbsp;<input type="text" style="width: 350px;" required><br>
+      確認密碼:&nbsp;<input type="text" style="width: 350px;" required><br>
+      電話:&nbsp;<input type="text" style="width: 400px;" required><br>
       e-mail:&nbsp;<input type="email" style="width: 400px;" required><br>
-      <div class="talk">想說的話:</div><textarea cols="63" rows="5" required></textarea><br>
-      <input type="submit" value="送出" class="pass" /> <br>  
-      <h1>留言內容</h1>
+    
+      <input type="submit" value="確認" class="pass" /> <br>  
+     
     </form>
     
    
@@ -70,7 +73,7 @@
       <!--放留言內容-->
     </div>
     </center>
-<footer>
+   <footer>
 <div class="footer">
         你是第00位少女心訪客!<br>Copyright&nbsp;©&nbsp;HELLO DOLL!&nbsp;design,2019      
       </div>
